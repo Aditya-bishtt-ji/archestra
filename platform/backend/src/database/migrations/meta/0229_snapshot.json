@@ -1,5 +1,5 @@
 {
-  "id": "1513b867-b2a8-48b4-aa85-b03d568b04de",
+  "id": "be596c40-6971-48c4-9444-ecb96ef9498a",
   "prevId": "b9f159dd-45ee-44ee-9f44-6eb8f1826ae3",
   "version": "7",
   "dialect": "postgresql",
@@ -2885,13 +2885,6 @@
           "primaryKey": false,
           "notNull": false,
           "default": "'{}'::jsonb"
-        },
-        "mapping_templates": {
-          "name": "mapping_templates",
-          "type": "jsonb",
-          "primaryKey": false,
-          "notNull": true,
-          "default": "'[]'::jsonb"
         },
         "oauth_config": {
           "name": "oauth_config",
